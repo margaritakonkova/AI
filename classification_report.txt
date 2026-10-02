@@ -1,0 +1,24 @@
+Регрессия: Total Spent
+  Model     RMSE      MAE
+Poly(2) 0.065245 0.027642
+ Linear 0.098688 0.068127
+  Ridge 0.098688 0.068133
+  Lasso 0.102681 0.072577
+
+Классификация: Item_Label
+Accuracy: 0.6785
+F1 (weighted): 0.6765
+
+              precision    recall  f1-score   support
+
+      Coffee       0.89      0.51      0.65       461
+      Cookie       0.89      0.94      0.92       218
+       Juice       0.51      0.69      0.58       428
+       Salad       0.88      0.93      0.90       230
+    Sandwich       0.46      0.29      0.36       226
+    Smoothie       0.43      0.61      0.51       219
+         Tea       0.93      0.94      0.94       218
+
+    accuracy                           0.68      2000
+   macro avg       0.71      0.70      0.69      2000
+weighted avg       0.71      0.68      0.68      2000
