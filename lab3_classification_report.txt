@@ -1,0 +1,29 @@
+КЛАССИФИКАЦИЯ Item_Label
+Глубина: 7
+Accuracy: 0.6930
+
+              precision    recall  f1-score   support
+
+      Coffee       0.79      0.58      0.67       461
+      Cookie       0.89      0.94      0.92       218
+       Juice       0.51      0.61      0.55       428
+       Salad       0.88      0.93      0.90       230
+    Sandwich       0.52      0.64      0.57       226
+    Smoothie       0.50      0.41      0.45       219
+         Tea       0.93      0.94      0.94       218
+
+    accuracy                           0.69      2000
+   macro avg       0.72      0.72      0.71      2000
+weighted avg       0.70      0.69      0.69      2000
+
+ROC-AUC
+Coffee       AUC = 0.9332
+Cookie       AUC = 0.9813
+Juice        AUC = 0.7556
+Salad        AUC = 0.9784
+Sandwich     AUC = 0.9317
+Smoothie     AUC = 0.9156
+Tea          AUC = 0.9820
+
+Micro AUC: 0.9513
+Macro AUC: 0.9254
