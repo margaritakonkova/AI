@@ -1,0 +1,12 @@
+Лабораторная работа 4
+
+OOB Score Random Forest: 0.6709
+OOB Error: 0.3291
+
+Accuracy Random Forest: 0.6885
+Accuracy AdaBoost: 0.6815
+Accuracy Gradient Boosting: 0.6835
+
+Micro AUC Random Forest: 0.9483
+Micro AUC AdaBoost: 0.8836
+Micro AUC Gradient Boosting: 0.9524
